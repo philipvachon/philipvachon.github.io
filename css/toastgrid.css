@@ -271,7 +271,7 @@
       width: 75%; } }
   @media (max-width: 480px) {
     .grid__col[class*="grid__col--s-"] {
-      display: inline-block;
+      /*display: inline-block;*/
       margin-right: -.24em; }
     .grid__col.grid__col--s-1-of-2, .grid__col.grid__col--s-2-of-4 {
       width: 50%; }
