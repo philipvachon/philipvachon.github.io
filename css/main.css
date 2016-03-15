@@ -1,0 +1,101 @@
+body {
+	margin: 0px;
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+
+.totalsection {
+	margin: 20px
+}
+
+input {
+	width: 40%;
+}
+
+button {
+	display: block;
+	width: 100%;
+	margin: 0px;
+	cursor: pointer;
+	outline-style: none;
+	border-style: none;
+	background-color: lightblue;
+	padding-bottom: .2em;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 20px;
+	border-bottom-style: solid;
+	border-bottom: solid;
+}
+
+li {
+	list-style-type: none;
+	display: block;
+	padding: 20px;
+	color: white;
+}
+
+li:nth-of-type(1n) {
+	width: 100%;
+	background-color: #ff0000;
+}
+
+li:nth-of-type(2n) {
+	width: 100%;
+	background-color: #ff5a00;
+}
+
+li:nth-of-type(3n) {
+	width: 100%;
+	background-color: #ff9a00;
+}
+
+li:nth-of-type(4n) {
+	width: 100%;
+	background-color: #ffce00;
+}
+
+li:nth-of-type(5n) {
+	width: 100%;
+	background-color: #f0ff00;
+}
+
+@media (min-width:100px) {
+	body {
+		font-size: 1em;
+	}
+
+	input {
+		font-size: 1em;
+		height: 2em;
+	}
+
+	button {
+		font-size: 1em;
+		height: 2em;
+	}
+}
+
+@media (min-width:750px) {
+	body {
+		font-size: 2em;
+	}
+
+}
+
+@media (min-width:1000px) {
+	body {
+		font-size: 3em;
+	}
+
+}
+
+@media (min-width:1300px) {
+	body {
+		font-size: 5em;
+	}
+
+}
